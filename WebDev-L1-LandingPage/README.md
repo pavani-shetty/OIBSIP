@@ -44,7 +44,3 @@ Open `index.html` in any modern web browser.
 
 All images sourced from [Unsplash](https://unsplash.com) (royalty-free).
 
-## Demo Video
-
-Record a screen walkthrough. First 2 seconds must show:
-**Pavani Shetty | Web Development & Design | Landing Page**
