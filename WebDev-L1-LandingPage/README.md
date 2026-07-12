@@ -17,7 +17,6 @@ A visually polished landing page for **$hetty's Café**, a fictional artisan cof
 
 ## Sections
 
-- **Hero** — Full-screen background image with headline and CTA
 - **Menu** — 4 coffee & pastry items with images and prices
 - **About** — Brand story with stats and barista image
 - **Testimonials** — 3 customer reviews with profile photos
