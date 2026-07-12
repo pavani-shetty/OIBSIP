@@ -1,4 +1,4 @@
-# Task 1 — Landing Page: Brew & Bloom Café
+# Task 1 — Landing Page: $hetty's Café
 
 **Track:** Web Development & Design  
 **Level:** 1  
