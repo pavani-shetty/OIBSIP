@@ -12,7 +12,16 @@ Project screenshots for Oasis Infobyte SIP submission.
 - `landing-page-gallery.png`
 - `landing-page-contact.png`
 
+## Personal Portfolio (`WebDev-L1-PersonalPortfolio`)
+
+- `personal-portfolio.png` — Hero section (main preview)
+- `personal-portfolio-hero.png`
+- `personal-portfolio-about.png`
+- `personal-portfolio-skills.png`
+- `personal-portfolio-projects.png`
+- `personal-portfolio-resume.png`
+- `personal-portfolio-contact.png`
+
 ## Still needed
 
-- `personal-portfolio.png` — WebDev-L1-PersonalPortfolio
 - `temperature-converter.png` — WebDev-L1-TemperatureConverter
