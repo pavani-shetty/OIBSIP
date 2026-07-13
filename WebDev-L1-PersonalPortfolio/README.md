@@ -21,7 +21,8 @@ A modern, elegant personal portfolio website for **Pavani Shetty** — a final-y
 - **About** — Background and interests
 - **Skills** — 6 skill cards with hover effects
 - **Projects** — Landing Page & Temperature Converter with GitHub links
-- **Contact** — Email, LinkedIn, GitHub with social buttons
+- **Resume** — Education, skills, certifications, achievements & PDF download
+- **Contact** — Email, phone, LinkedIn, GitHub with social buttons
 - **Footer**
 
 ## Feature Checklist
