@@ -21,8 +21,8 @@ OIBSIP/
 
 | # | Folder | Task | Status |
 |---|--------|------|--------|
-| 1 | `WebDev-L1-LandingPage` | Landing Page | ⬜ Not started |
-| 2 | `WebDev-L1-PersonalPortfolio` | Personal Portfolio | ⬜ Not started |
+| 1 | `WebDev-L1-LandingPage` | Landing Page | ✅ Complete |
+| 2 | `WebDev-L1-PersonalPortfolio` | Personal Portfolio | ✅ Complete |
 | 3 | `WebDev-L1-TemperatureConverter` | Temperature Converter | ⬜ Not started |
 
 ## Submission Checklist (per task)
