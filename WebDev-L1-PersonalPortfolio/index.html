@@ -3,65 +3,231 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Pavani Shetty | Portfolio</title>
+  <title>Pavani Shetty | Web Developer Portfolio</title>
   <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
 </head>
 <body>
-  <nav class="navbar">
-    <ul>
-      <li><a href="#home">Home</a></li>
-      <li><a href="#about">About</a></li>
-      <li><a href="#skills">Skills</a></li>
-      <li><a href="#projects">Projects</a></li>
-      <li><a href="#contact">Contact</a></li>
-    </ul>
-  </nav>
+  <div class="bg-glow bg-glow--one"></div>
+  <div class="bg-glow bg-glow--two"></div>
 
-  <section id="home" class="hero">
-    <div class="avatar">PS</div>
-    <h1>Pavani Shetty</h1>
-    <p class="role">Web Developer | Final Year Student</p>
-  </section>
-
-  <section id="about" class="section">
-    <h2>About Me</h2>
-    <p>Write 2–3 sentences about your background, interests, and what you're learning.</p>
-  </section>
-
-  <section id="skills" class="section alt">
-    <h2>Skills</h2>
-    <div class="skills-grid">
-      <span>HTML5</span>
-      <span>CSS3</span>
-      <span>JavaScript</span>
-      <span>Git & GitHub</span>
-      <span>Responsive Design</span>
+  <header class="navbar">
+    <div class="container nav-content">
+      <a href="#home" class="logo">PS.</a>
+      <nav aria-label="Main navigation">
+        <ul class="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
     </div>
-  </section>
+  </header>
 
-  <section id="projects" class="section">
-    <h2>Projects</h2>
-    <div class="projects-grid">
-      <article class="project-card">
-        <h3>Landing Page</h3>
-        <p>Static landing page built with HTML and CSS.</p>
-        <a href="#">GitHub</a>
-      </article>
-      <article class="project-card">
-        <h3>Temperature Converter</h3>
-        <p>Interactive tool to convert between Celsius, Fahrenheit, and Kelvin.</p>
-        <a href="#">GitHub</a>
-      </article>
+  <main>
+    <section id="home" class="hero">
+      <div class="container hero-grid">
+        <div class="hero-text">
+          <p class="eyebrow">Hello, I'm</p>
+          <h1>Pavani Shetty</h1>
+          <p class="role">Web Developer · Final Year Student</p>
+          <p class="hero-description">
+            I design and build clean, responsive websites with thoughtful layouts
+            and modern aesthetics. Passionate about turning ideas into beautiful
+            digital experiences.
+          </p>
+          <div class="hero-actions">
+            <a href="#projects" class="btn btn-primary">View My Work</a>
+            <a href="#contact" class="btn btn-outline">Get In Touch</a>
+          </div>
+        </div>
+        <div class="hero-profile">
+          <div class="profile-ring">
+            <div class="avatar">
+              <img
+                src="images/profile.png"
+                alt="Pavani Shetty"
+              />
+            </div>
+          </div>
+          <div class="profile-badge">Open to Internships / FTEs</div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section about">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-label">About Me</span>
+          <h2>Crafting the Web, One Project at a Time</h2>
+        </div>
+        <div class="about-card">
+          <p>
+            I'm a final-year student passionate about web development and UI design.
+            I enjoy building responsive websites that are both functional and visually
+            appealing, with a strong focus on clean code and user-friendly layouts.
+          </p>
+          <p>
+            Through my Oasis Infobyte internship and personal projects, I've honed my
+            skills in HTML, CSS, and JavaScript — and I'm always eager to learn more
+            and take on new challenges in front-end development.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section skills">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-label">Skills</span>
+          <h2>What I Work With</h2>
+        </div>
+        <div class="skills-grid">
+          <article class="skill-card">
+            <span class="skill-icon">HTML</span>
+            <h3>HTML5</h3>
+            <p>Semantic markup & accessible structure</p>
+          </article>
+          <article class="skill-card">
+            <span class="skill-icon">CSS</span>
+            <h3>CSS3</h3>
+            <p>Flexbox, Grid & responsive design</p>
+          </article>
+          <article class="skill-card">
+            <span class="skill-icon">JS</span>
+            <h3>JavaScript</h3>
+            <p>DOM manipulation & interactivity</p>
+          </article>
+          <article class="skill-card">
+            <span class="skill-icon">Git</span>
+            <h3>Git & GitHub</h3>
+            <p>Version control & collaboration</p>
+          </article>
+          <article class="skill-card">
+            <span class="skill-icon">UI</span>
+            <h3>UI Design</h3>
+            <p>Layout, typography & colour systems</p>
+          </article>
+          <article class="skill-card">
+            <span class="skill-icon">RWD</span>
+            <h3>Responsive Web</h3>
+            <p>Mobile-first, cross-device layouts</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section projects">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-label">Projects</span>
+          <h2>Featured Work</h2>
+          <p>A selection of projects from my Web Development internship and practice.</p>
+        </div>
+        <div class="projects-grid">
+          <article class="project-card">
+            <div class="project-image">
+              <img
+                src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=700&auto=format&fit=crop&q=80"
+                alt="Shetty's Cafe landing page preview"
+                loading="lazy"
+              />
+            </div>
+            <div class="project-body">
+              <span class="project-tag">HTML · CSS</span>
+              <h3>Shetty's Café Landing Page</h3>
+              <p>
+                A fully responsive coffee shop landing page with hero, menu, gallery,
+                testimonials, and contact sections.
+              </p>
+              <a
+                href="https://github.com/pavani-shetty/OIBSIP/tree/main/WebDev-L1-LandingPage"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="project-link"
+              >View on GitHub →</a>
+            </div>
+          </article>
+          <article class="project-card">
+            <div class="project-image">
+              <img
+                src="images/temperature-converter.jpg"
+                alt="Temperature converter project preview"
+                loading="lazy"
+              />
+            </div>
+            <div class="project-body">
+              <span class="project-tag">HTML · CSS · JS</span>
+              <h3>Temperature Converter</h3>
+              <p>
+                An interactive web tool that converts between Celsius, Fahrenheit,
+                and Kelvin with input validation and edge-case handling.
+              </p>
+              <a
+                href="https://github.com/pavani-shetty/OIBSIP/tree/main/WebDev-L1-TemperatureConverter"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="project-link"
+              >View on GitHub →</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact">
+      <div class="container">
+        <div class="contact-card">
+          <div class="section-header">
+            <span class="section-label">Contact</span>
+            <h2>Let's Connect</h2>
+            <p>Interested in working together or have a question? I'd love to hear from you.</p>
+          </div>
+          <div class="contact-details">
+            <div class="contact-item">
+              <span class="contact-label">Name</span>
+              <span>Pavani Shetty</span>
+            </div>
+            <div class="contact-item">
+              <span class="contact-label">Phone Number</span>
+              <a href="tel:+919353774329">+919353774329</a>
+            </div>
+            <div class="contact-item">
+              <span class="contact-label">Email</span>
+              <a href="mailto:pavanishetty1221@gmail.com">pavanishetty1221@gmail.com</a>
+            </div>
+
+            <div class="contact-item">
+              <span class="contact-label">LinkedIn</span>
+              <a href="https://www.linkedin.com/in/pavani-s-078a11411/" target="_blank" rel="noopener noreferrer">
+                linkedin.com/in/pavani-s-078a11411
+              </a>
+            </div>
+            <div class="contact-item">
+              <span class="contact-label">GitHub</span>
+              <a href="https://github.com/pavani-shetty" target="_blank" rel="noopener noreferrer">
+                github.com/pavani-shetty
+              </a>
+            </div>
+          </div>
+          <div class="social-links">
+            <a href="https://www.linkedin.com/in/pavani-s-078a11411/" target="_blank" rel="noopener noreferrer" class="social-btn">LinkedIn</a>
+            <a href="https://github.com/pavani-shetty" target="_blank" rel="noopener noreferrer" class="social-btn">GitHub</a>
+            <a href="mailto:pavanishetty1221@gmail.com" class="social-btn social-btn--accent">Email Me</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2026 Pavani Shetty. Built with HTML & CSS.</p>
     </div>
-  </section>
-
-  <section id="contact" class="section alt">
-    <h2>Contact</h2>
-    <p>Email: your.email@example.com</p>
-    <p>
-      <a href="https://github.com/pavani-shetty">GitHub</a> |
-      <a href="#">LinkedIn</a>
-    </p>
-  </section>
+  </footer>
 </body>
 </html>

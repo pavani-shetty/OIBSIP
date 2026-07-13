@@ -1,0 +1,11 @@
+# Netlify config — deploys Personal Portfolio to pavani-shetty.netlify.app
+# When linking OIBSIP repo on Netlify, this publish path is used automatically.
+
+[build]
+  publish = "WebDev-L1-PersonalPortfolio"
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "DENY"
+    X-Content-Type-Options = "nosniff"
