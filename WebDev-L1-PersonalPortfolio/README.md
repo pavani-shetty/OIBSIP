@@ -39,7 +39,3 @@ A modern, elegant personal portfolio website for **Pavani Shetty** — a final-y
 ## How to Run
 
 Open `index.html` in any modern web browser.
-
-## Demo Video Title Card
-
-**Pavani Shetty | Web Development & Design | Personal Portfolio**
