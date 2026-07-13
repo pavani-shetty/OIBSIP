@@ -33,7 +33,3 @@ Build an interactive web tool that converts temperature between Celsius, Fahrenh
 ## How to Run
 
 Open `index.html` in your browser.
-
-## Demo Video Title Card
-
-**Pavani Shetty | Web Development & Design | Temperature Converter**
