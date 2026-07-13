@@ -22,6 +22,10 @@ Project screenshots for Oasis Infobyte SIP submission.
 - `personal-portfolio-resume.png`
 - `personal-portfolio-contact.png`
 
-## Still needed
+## Temperature Converter (`WebDev-L1-TemperatureConverter`)
 
-- `temperature-converter.png` — WebDev-L1-TemperatureConverter
+- `temperature-converter.png` — Empty form (main preview)
+- `temperature-converter-form.png`
+- `temperature-converter-results.png`
+- `temperature-converter-units.png`
+- `temperature-converter-kelvin.png`
